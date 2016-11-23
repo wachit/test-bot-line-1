@@ -17,7 +17,7 @@ def callback():
     #id=[d['replyToken'] for d in user][0]
     #print(json_line)
     print("ผู้ใช้：",user)
-    sendText(user,'สวัสดีครับผมเป็นแค่บอตที่กำลังเริ่มต้นพัฒนาครับ') # ส่งข้อความ งง
+    sendText(user,'สวัสดีครับผมเป็นแค่บอตที่กำลังเริ่มต้นพัฒนาครับ----> :D') # ส่งข้อความ งง
     return '',200
  
 def sendText(user, text):
